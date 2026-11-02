@@ -366,7 +366,7 @@ rule NetamLoader_FabricConfig_ResXResourceSet {
 | SHA-256 (XAML-1)                  | b275d1d4e6d0d4387f0ae7100c03baf361437173aa1e9047065974d3e8d473e4                   | **HIGH**       |
 | SHA-256 (fabric.config)           | ad8c0958ca194795153979fc9eb3edc4795c5db6fc306219061f8423e6d1fde9                   | **HIGH**       |
 | SHA-256 (ScriptRunner.exe.config) | ea2aa07883796c4cf3b8b61559b37f7354d21716e44df3216d0c3300b251378e                   | **HIGH**       |
-| Domain (C2 from Kaspersky)        | openaigpt4v\[.\]com                                                                | **HIGH**       |
+| Domain (C2 from Kaspersky)        | openaigpt4v.com                                                                    | **HIGH**       |
 | File path                         | C:\Windows\SoftwareDistribution\Download\Install\fabric.config                     | **HIGH**       |
 | File path                         | C:\Windows\SoftwareDistribution\Download\Install\Resources.resx                    | **HIGH**       |
 | File path                         | C:\Windows\SoftwareDistribution\Download\Install\PatchMyPC-ScriptRunner.exe.config | **HIGH**       |
