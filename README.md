@@ -349,13 +349,13 @@ rule NetamLoader_FabricConfig_ResXResourceSet {
 
 ### Endpoint hunting
 
-- Files named fabric.config, Resources.resx or \*.exe.config containing appDomainManagerType under `C:\Windows\SoftwareDistribution\Download\`
+- Files named `fabric.config`, `Resources.resx` or `\*.exe.config` containing appDomainManagerType under `C:\Windows\SoftwareDistribution\Download\`
 
 - Process creation of PatchMyPC-ScriptRunner.exe from `\SoftwareDistribution\Download\Install\`[^5]
 
-- Image loads by PatchMyPC-ScriptRunner.exe of Microsoft.HostIntegration.Connectors.dll together with System.Windows.Forms and PresentationFramework
+- Image loads by `PatchMyPC-ScriptRunner.exe` of `Microsoft.HostIntegration.Connectors.dll` together with `System.Windows.Forms` and `PresentationFramework`
 
-- Behaviour reported by Kaspersky after stage 1: COMPlus_ETWEnabled=0 in a process environment, deletion of %LOCALAPPDATA%\Microsoft\CLR_v4.0\UsageLogs\PatchMyPC-ScriptRunner.exe.log and PATCHMYPC-SCRIPTRUNNER.EXE-\*.pf, creation of `HKLM\SOFTWARE\Classes\AppID\{ff259bcd-2f0a-44de-b34a-0092fec1d8a2}` with DllSurrogate, and outbound HTTPS from dllhost.exe
+- Behaviour reported by Kaspersky after stage 1: `COMPlus_ETWEnabled=0` in a process environment, deletion of `%LOCALAPPDATA%\Microsoft\CLR_v4.0\UsageLogs\PatchMyPC-ScriptRunner.exe.log` and `PATCHMYPC-SCRIPTRUNNER.EXE-\*.pf`, creation of `HKLM\SOFTWARE\Classes\AppID\{ff259bcd-2f0a-44de-b34a-0092fec1d8a2}` with DllSurrogate, and outbound HTTPS from dllhost.exe
 
 ## IOCs
 
