@@ -391,7 +391,7 @@ rule NetamLoader_FabricConfig_ResXResourceSet {
 
 ---
 
-**TLP:AMBER PAP:GREEN**
+**TLP:WHITE PAP:CLEAR**
 
 [^1]: https://securelist.com/netamloader/121676/
 
