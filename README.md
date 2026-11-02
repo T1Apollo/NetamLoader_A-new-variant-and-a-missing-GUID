@@ -94,7 +94,7 @@ We therefore conducted research to see whether it was possible to identify new C
 
 ![](pic/fig01.png)
 
-*Figure 1 : `https://www.virustotal.com/gui/search?query=content:"PatchMyPC-ScriptRunner.exe" fs:2025-01-01+&section=IoCs&type=files*`
+*Figure 1 : https://www.virustotal.com/gui/search?query=type%3Acab%20content%3A%22PatchMyPC-ScriptRunner.exe.config%22%20content%3A%22fabric.config%22&section=IoCs&type=files
 
 ### File analysis
 
